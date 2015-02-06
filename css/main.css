@@ -115,3 +115,7 @@ footer {
   display: block;
   background-color: #ffe524;
 }
+
+i {
+  font-size: 0.8rem;
+}
