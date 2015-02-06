@@ -57,10 +57,18 @@ ol {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 nav li {
   background-color: #b2a215;
+  padding: 0.5em;
+  border-radius: 5px;
+  display: inline;
+}
+
+nav li:hover {
+  background-color: #cc3865;
   padding: 0.5em;
   border-radius: 5px;
   display: inline;
@@ -92,4 +100,18 @@ figcaption {
 
 .info {
   font-weight: bold;
+}
+
+.info2 {
+  margin: 0;
+  text-align: left;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 1.5em;
+  margin: 0;
+  display: block;
+  background-color: #ffe524;
 }
