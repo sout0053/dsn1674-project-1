@@ -1,4 +1,5 @@
 header {
+  text-align: center;
   margin: 0;
   display: block;
   background-color: #ffe524;
@@ -8,12 +9,32 @@ h1, h2 {
   font-family: 'Sigmar One', cursive;
 }
 
-p {
-  
+p, .info, .info2 {
+  font-family: 'Georgia', serif;
+  font-size: 0.8rem;
+}
+
+blockquote span {
+  text-align: center;
+  display: block;
+  font-size: 2.5rem;
+}
+
+cite {
+  text-align: center;
+  color: #b2a215;
+}
+
+nav {
+  padding: .5em;
 }
 
 header h1 {
   margin: 0;
+}
+
+img {
+  width: 100%;
 }
 
 body {
@@ -60,7 +81,8 @@ figure {
   display: inline-block;
   padding: 0.5em 0.75em;
   border-radius: 0.4em;
-  border: 2px solid grey;
+  border: 2px solid #c5b844;
+  background-color: #fffce0;
 }
 
 figcaption {
